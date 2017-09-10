@@ -1,0 +1,1 @@
+python crawler practice 最近想学学python，但是web方向我已经有Java了，所以想用python玩玩爬虫，顺便用GitHub记录一下
