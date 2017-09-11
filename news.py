@@ -7,7 +7,6 @@ import lxml.html
 url = 'http://news.ifeng.com/listpage/11502/0/1/rtlist.shtml'
 html = requests.get(url).text
 doc = lxml.html.fromstring(html)
-title = []
 title = doc.xpath("//div[@class='newsList']/ul/li/a/text()");
 path = doc.xpath("//div[@class='newsList']/ul/li/a/@href");
 f = open('news.txt','w',encoding='utf-8')
